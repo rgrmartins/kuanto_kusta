@@ -14,7 +14,7 @@ Project created with NodeJS with the objectives:
 - Clone this project and in terminal in folder this project run `yarn` to install all dependencies
 - We need start the docker:
   - Run this command in terminal in folder this project and with docker started `docker-compose up -d`
-- After it we need run the migration command to create our tables `npx prisma migrate dev`
+- After it we need run the migration command to create our tables `yarn migration:run`
 ----------------------------------------------------------------
 ### Commands
   - `yarn dev` - It will start the project and make the endpoints available
